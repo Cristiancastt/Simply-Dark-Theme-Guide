@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    margin:0;
+    padding: 0;
+}
+a{
+    font-size: 50px;
+    margin-left: 20px;
+    transition: transform 1s;
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    transform: scale(1.2);
+}
+h1{
+    font-weight: lighter;
+    margin-left: 20px;
+}
+span{
+    font-weight: bold;
+}
+
+#container{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-left: 25vw;
+    background-color: #292929;
+    border-radius:30px ;
+    color:#ffffff;
+    width: fit-content;
+    height: fit-content;
+    padding: 2%;
+}
+table{
+    border-spacing: 20px;
+}
+#pallete table tr td{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+#one{
+    background-color:#121212 ;
+}
+#two{
+    background-color:#1e1e1e ;
+}
+#three{
+    background-color:#232323 ;
+}
+#four{
+    background-color:#252525 ;
+}
+#five{
+    background-color:#272727 ;
+}
+#six{
+    background-color:#2c2c2c ;
+}
+#seven{
+    background-color:#2e2e2e ;
+}
+#eight{
+    background-color:#333333 ;
+}
+#nine{
+    background-color:#363636 ;
+}
+#ten{
+    background-color:#383838 ;
+}
